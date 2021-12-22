@@ -16,6 +16,9 @@ html, body{
 
 img { max-width: 50%; height: auto; }
 
+.img90 { max-width: 90%; height: auto; }
+
+
 /* Stuff neccesary to make PDF viewer work
 /* CSS for responsive iframe */
 /* ========================= */
