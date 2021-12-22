@@ -9,10 +9,13 @@ html, body{
 .head-c {
     color: green;
   }
-  .responsive {
-    width: 100%;
-    height: auto;
-  }  
+.responsive {
+  width: 100%;
+  height: auto;
+}  
+
+img { max-width: 50%; height: auto; }
+
 /*Stuff neccesary to make PDF viewer work*/
 /* CSS for responsive iframe */
 /* ========================= */
