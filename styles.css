@@ -16,28 +16,28 @@ html, body{
 
 img { max-width: 50%; height: auto; }
 
-/*Stuff neccesary to make PDF viewer work*/
+/* Stuff neccesary to make PDF viewer work
 /* CSS for responsive iframe */
 /* ========================= */
 
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
-#Iframe-Master-CC-and-Rs {
+/* #Iframe-Master-CC-and-Rs {
     max-width: 512px;
     max-height: 100%; 
     overflow: hidden;
-  }
+  } */
   
   /* inner wrapper: make responsive */
-  .responsive-wrapper {
+  /* .responsive-wrapper {
     position: relative;
     height: 0;    /* gets height from padding-bottom */
     
     /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
       -webkit-overflow-scrolling: touch; overflow: auto; */
     
-  }
+  /* } */ */
    
-  .responsive-wrapper iframe {
+  /* .responsive-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -46,18 +46,18 @@ img { max-width: 50%; height: auto; }
     
     margin: 0;
     padding: 0;
-    border: none;
-  }
-  
+    border: none; */
+  /* }
+   */ */
   /* padding-bottom = h/w as % -- sets aspect ratio */
   /* YouTube video aspect ratio */
-  .responsive-wrapper-wxh-572x612 {
+  /* .responsive-wrapper-wxh-572x612 {
     padding-bottom: 107%;
   }
   
   /* general styles */
   /* ============== */
-  .set-border {
+  /* .set-border {
     border: 5px inset #4f4f4f;
   }
   .set-box-shadow { 
@@ -74,5 +74,5 @@ img { max-width: 50%; height: auto; }
   .center-block-horiz {
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-  
+  } */
+   /* */ */
