@@ -1,5 +1,11 @@
-.font-family: 'Jua', sans-serif;
-.align-center { text-align: center; }
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@200&family=Yeon+Sung&display=swap');
+
+/*index.html*/
+html, body{
+  text-align: center;
+}
+
 .head-c {
     color: green;
   }
