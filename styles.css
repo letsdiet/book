@@ -2,6 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@200&family=Yeon+Sung&display=swap');
 
 /*index.html*/
+h2{
+  background-color: orange;
+  border: solid; 
+  border-color:rgb(238, 211, 162, 0.199);
+  border-radius: 20px 40px 60px 80px/ 80px 60px 40px 20px;
+  padding: 20px;
+  text-align: center;
+}
+/* h3{
+  background-color: orange;
+  border: solid; 
+  border-color:rgb(238, 211, 162, 0.199)
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+} */
+.bonmun{
+  background-color: rgb(238, 211, 162, 0.199);
+  border: dotted;
+  border-color: rgb(166, 211, 1);
+  border-radius: 20px 40px 60px 80px/ 80px 60px 40px 20px;
+  padding: 20px;
+  text-align: center;
+}
 html, body{
   text-align: center;
 }
